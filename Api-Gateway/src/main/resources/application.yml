@@ -1,0 +1,13 @@
+server:
+  port: 8002 #api.atl.com
+
+
+
+services:
+  auth: http://localhost:8072
+  entrance: http://localhost:8093
+  otp: http://localhost:8084
+
+app:
+  jwt:
+    secret: abc123124343242423d3243432432c84774673636
